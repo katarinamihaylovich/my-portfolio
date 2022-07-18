@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+header {
+    padding: 15px;
+    color:darkgreen;
+    background-color: lightgreen;
+}
+
+nav {
+    float: right;
+    padding-top: 10px;
+    margin-right: 20px;
+}
+
+h1 {
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a {
+    color:darkgreen;
+    text-decoration: none;
+}
+
+.graphic {
+    height: 300px;
+    width: 100%;
+    background-image: url("./images/geometry3.png");
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+.aboutme {
+    display: inline-block;
+    position: absolute;
+    margin-left: 50px;
+}
